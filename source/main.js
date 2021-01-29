@@ -1,3 +1,3 @@
-import * as number from './elements/number.js';
+import { Number } from './elements/number.js';
 
-Object.assign(quantum, number);
+Quantum.Number = Number;

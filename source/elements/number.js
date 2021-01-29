@@ -1,13 +1,9 @@
 import html from '../templates/number.js';
 
-const { Component, template, define } = quantum;
-
-export class Number extends Component {
+export class Number extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-number', Number);
+Number.define('quantum-number', html);
